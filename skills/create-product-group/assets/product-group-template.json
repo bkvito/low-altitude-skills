@@ -1,0 +1,104 @@
+{
+  "$schema": "product-group-config-template",
+  "templates": {
+    "colorMap_realtime": {
+      "description": "色斑图产品组 - 实况",
+      "configName": "TODO_CONFIG_NAME",
+      "type": "SceneProps<DynamicAsyncComponentProps<ColorMapProps>>[]",
+      "items": [
+        {
+          "title": "TODO_TITLE",
+          "backgroundImage": "secondMenu",
+          "placeholderHeight": 100,
+          "loader": "() => import('../../ColorMap')",
+          "componentProps": {
+            "productGroupIdentify": "TODO_IDENTIFY",
+            "viewType": "COLOR_MAP"
+          }
+        }
+      ]
+    },
+    "colorMap_forecast": {
+      "description": "色斑图产品组 - 预报",
+      "configName": "TODO_CONFIG_NAME",
+      "type": "SceneProps<DynamicAsyncComponentProps<ColorMapProps>>[]",
+      "items": [
+        {
+          "title": "TODO_TITLE",
+          "backgroundImage": "secondMenu",
+          "placeholderHeight": 100,
+          "loader": "() => import('../../ColorMap')",
+          "componentProps": {
+            "productGroupIdentify": "TODO_IDENTIFY",
+            "viewType": "COLOR_MAP",
+            "productConfig": {
+              "bindHeightAxis": true,
+              "isForecastProduct": true,
+              "matcher": {
+                "time": "",
+                "height": ""
+              }
+            }
+          }
+        }
+      ]
+    },
+    "wind_realtime": {
+      "description": "风场产品组 - 实况",
+      "configName": "TODO_CONFIG_NAME",
+      "type": "SceneProps<DynamicAsyncComponentProps<WindTestProps>>[]",
+      "items": [
+        {
+          "title": "TODO_TITLE",
+          "backgroundImage": "secondMenu",
+          "placeholderHeight": 100,
+          "loader": "() => import('../../WindTest')",
+          "componentProps": {
+            "productGroupIdentify": "TODO_IDENTIFY",
+            "viewType": "WIND"
+          }
+        }
+      ]
+    },
+    "wind_forecast": {
+      "description": "风场产品组 - 预报",
+      "configName": "TODO_CONFIG_NAME",
+      "type": "SceneProps<DynamicAsyncComponentProps<WindTestProps>>[]",
+      "items": [
+        {
+          "title": "TODO_TITLE",
+          "backgroundImage": "secondMenu",
+          "placeholderHeight": 100,
+          "loader": "() => import('../../WindTest')",
+          "componentProps": {
+            "productGroupIdentify": "TODO_IDENTIFY",
+            "viewType": "WIND",
+            "productConfig": {
+              "bindHeightAxis": true,
+              "isForecastProduct": true,
+              "matcher": {
+                "time": "",
+                "height": ""
+              }
+            }
+          }
+        }
+      ]
+    },
+    "listData_entry": {
+      "description": "listData 注册条目模板",
+      "key": "TODO_NEXT_KEY",
+      "title": "TODO_MODULE_TITLE",
+      "siteName": "TODO_SITE_NAME",
+      "sumMenu": "TODO_CONFIG_NAME"
+    }
+  },
+  "required_imports": [
+    "import secondMenu from '@/assets/images/secondMenu.png';",
+    "import { DynamicAsyncComponentProps } from '@/components/common/DynamicAsyncComponent';",
+    "import { ViewEnum } from '@/typing';",
+    "import { SceneProps } from './typing';",
+    "import { ColorMapProps } from '../../ColorMap';",
+    "import { WindTestProps } from '../../WindTest';"
+  ]
+}

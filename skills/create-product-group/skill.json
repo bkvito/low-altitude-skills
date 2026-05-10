@@ -1,0 +1,32 @@
+{
+    "name": "create-product-group",
+    "version": "1.0.0",
+    "description":
+  "用于快速创建各种产品组（色斑图/风场），生成符合SceneProps规范的配置代码",       
+    "author": "Your Name",
+    "license": "MIT",
+    "keywords": [
+      "claude-code",
+      "product-group",
+      "meteorology",
+      "vue",
+      "typescript"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/your-username/create-product-group.git"
+    },
+    "homepage": "https://github.com/your-username/create-product-group#readme",    
+    "bugs": {
+      "url": "https://github.com/your-username/create-product-group/issues"        
+    },
+    "claude-code": {
+      "skillType": "agent",
+      "triggerKeywords": [
+        "创建产品组",
+        "新建回波产品组",
+        "新建风场产品组"
+      ],
+      "minimumVersion": "1.0.0"
+    }
+  }
