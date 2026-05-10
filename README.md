@@ -5,7 +5,7 @@
 ## 目录结构
 
 ```text
-my-skills/
+low-altitude-skills/
 ├── README.md
 ├── AGENTS.md
 ├── LICENSE.md
