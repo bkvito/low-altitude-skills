@@ -1,4 +1,4 @@
-# My Skills
+# low-altitude-skills
 
 这是一个用于集中维护自定义 Codex Skills 的合集仓库。
 
